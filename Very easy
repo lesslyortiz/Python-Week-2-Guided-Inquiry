@@ -1,0 +1,8 @@
+# VERY EASY: Write a function named min that takes two arguments and returns their minimum.
+
+def min(val1, val2):
+    if val1>val2:
+        max = val1
+    else:
+        max = val2
+    return max
