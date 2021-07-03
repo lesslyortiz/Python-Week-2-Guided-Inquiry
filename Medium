@@ -1,0 +1,30 @@
+# MEDIUM: Create a program that accepts a number (1-12) as input and logs to the console that number and its corresponding month. For example: if the user enters the number 3, then it should return the month “March.” Alert the user if they enter an invalid number (e.g. less than 1 or greater than 12).
+ 
+imput = int(input("Provide a number (1-12): "))
+
+if imput == 1:
+    print("January")
+elif imput == 2:
+    print("February")
+elif imput == 3:
+    print("March")
+elif imput == 4:
+    print("April")
+elif imput == 5:
+    print("May")
+elif imput == 6:
+    print("June")
+elif imput == 7:
+    print("July")
+elif imput == 8:
+    print("August")
+elif imput ==9 :
+    print("September")
+elif imput == 10:
+    print("October")
+elif imput ==111 :
+    print("November")
+elif imput == 12:
+    print("December")
+else:
+    print("try again with a number 1-12")
